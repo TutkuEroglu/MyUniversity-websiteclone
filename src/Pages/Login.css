@@ -1,0 +1,136 @@
+.loginpic{
+    background-color: #0000ff;
+}
+
+.login {
+    position: absolute;
+    height: 650px;
+    width: 900px;
+    top: 5%;
+    right: 25%;
+    opacity: 0.9;
+    background-color: #CCCBCA;
+}
+
+.logo {
+    position: absolute;
+    height: 170px;
+    width: 900px;
+    opacity: 0.8;
+    background-color: #CCCBCA;
+}
+
+.container {
+    position: absolute;
+    height: 60px;
+    width: 470px;
+    top: 30.9%;
+    right: 47.8%;
+    background-color: white;
+}
+
+.LoginCont {
+    position: absolute;
+    height: 380px;
+    width: 470px;
+    top: 39.9%;
+    right: 47.8%;
+    background-color: #CCCBCA;
+}
+
+.duyuru {
+    position: absolute;
+    height: 450px;
+    width: 400px;
+    top: 30%;
+    right: 12px;
+    background-color: #CCCBCA;
+}
+
+
+.minilogin {
+    position: absolute;
+    height: 150px;
+    width: 700px;
+    top: 76%;
+    right: 35.5%;
+    opacity: 0.8;
+    background-color: #CCCBCA;
+}
+
+.bos {
+    position: absolute;
+    height: 150px;
+    width: 200px;
+    top: 76%;
+    right: 25%;
+    background-color: #E2E3E4;
+}
+
+.Sidebar {
+    height: 100%;
+    width: 230px;
+    background-color: #242526;
+  }
+  
+  .SidebarList {
+    height: auto;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .SidebarList .row {
+    width: 100%;
+    height: 60px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .Sidebar .row:hover {
+    cursor: pointer;
+    background-color: #3A3B3C;
+  }
+  
+  .SidebarList #active {
+    background-color: #3A3B3C;
+  }
+  
+  .row #icon {
+    flex: 30%;
+  }
+  
+  .row #title {
+    flex: 70%;
+  }
+  
+  .Navbar {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #18191A;
+    background-color: #242526;
+    display: flex;
+    justify-content: flex-end; 
+  }
+  .Navbar .links {
+    margin-top: 10px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .links a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    cursor: pointer;
+    font-weight: bold;
+  }
